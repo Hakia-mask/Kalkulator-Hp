@@ -1,21 +1,21 @@
 body {
-	padding: 0;
-	margin: 0;
+	padding: 10;
+	margin: 10;
 	display: flex;
 	justify-content: center;
-	align-item: center;
+	align-item: right;
 	min-height: 80vh;
 	user-select: none;
 	background-image:url(Goku.jpg);
 }
 .container {
 	margin-left: 1.8em;
-	padding: 10px;
-	border-radius: 90px;
+	padding: 10px;/*ukuran table*/
+	border-radius: 50px; /*sisi table*/
 	box-shadow: 13px 13px 20px blue,
 	-13px -13px 20px purple;
-	background-image:url(Goku-Desktop-Wallpaper-4k.jpg);
-}
+	background-color:#000000;
+	}
 .content {
 	width: 100%;
 	margin-top: 1.7em;
@@ -26,16 +26,16 @@ body {
 }
 .row button {
 	width: 60px;
-	height: 30px;
+	height: 50px;
 	font-size: 16px;
-	color:#FFFFFF;
-	border:none;
-	outline: none;
-	margin: 5px;
-	border-radius: 8px;
-	transition: .1s;
-	box-shadow: 5px 5px 8px grey,
--5px -5px 8px #d1d1d1;
+	color: #fff; /*warna tombol angka*/
+	border:none;/*jenis border button*/
+	
+	margin: 5px;/*jarak button dll*/
+	border-radius: 20px;/*sisi" button border*/
+	
+	box-shadow: 5px 5px 8px red,
+-5px -5px 8px purple;/*sisi" button warna*/
 }
 .row button:hover{
 box-shadow: inset 5px 5px 8px purple,
@@ -48,9 +48,9 @@ box-shadow: inset 5px 5px 8px purple,
 	font-size: 35px;
 	outline: none;
 	border: none;
-	text-align: right;
+	text-align: right;/*muncul input*/
 	padding-right: .5em;
-	border-radius:6px;
+	border-radius:100px;
 	box-shadow: inset 8px 8px 8px #d1d1d1,
 	inset -8px -8px -8px red;
 }
@@ -61,8 +61,8 @@ box-shadow: inset 5px 5px 8px purple,
 	inset -5px -5px -8px #00ace6;
 }
 #eval:hover {
-	box-shadow: inset 5px 5px 8px #00ace6,
-	inset -5px -5px 8px #00ace6;
+	box-shadow: inset 5px 5px 8px blue,
+	inset -5px -5px 8px red;
 }
 #ac {
 	background:#CC6600;
@@ -80,3 +80,10 @@ box-shadow: inset 5px 5px 8px purple,
  
  color:#000000;
 }
+/*e= exponen
+  x!= faktor
+  phi=  π
+  eval= samadengan
+  ac= AllClear
+  ce= ClearEntry
+  :hover= bayangan;
