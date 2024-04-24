@@ -3,21 +3,22 @@ body {
 	margin: 10;
 	display: flex;
 	justify-content: center;
-	align-items: right;
+	align-items: center;
 	min-height: 80vh;
 	user-select: none;
-	background-image:url(Goku.jpg);
+	background-image:url(Goku.jpg)
 }
 .container {
 	margin-left: 1.8em;
 	padding: 10px;/*ukuran table*/
-	border-radius: 50px; /*sisi table*/
-	box-shadow: 13px 13px 20px blue,
+	border-radius: 30px; /*sisi table*/
+	box-shadow: 13px 13px 20px blue,/* warna sisi bwaH TABLE*/
 	-13px -13px 20px purple;
-	background-color:#000000;
+	/*background-color:#666666;*/
 	}
 .content {
 	width: 100%;
+	
 	margin-top: 1.7em;
 	display: flex;
 	justify-content:center;
@@ -42,6 +43,7 @@ box-shadow: inset 5px 5px 8px purple,
 	inset -5px -5px 8px blue;
 }
 .display  #screen {
+
 	margin-bottom: .5em;
 	width: auto;
 	height: 70px;
@@ -49,10 +51,11 @@ box-shadow: inset 5px 5px 8px purple,
 	outline: none;
 	border: none;
 	text-align: right;/*muncul input*/
+	background-color:#6600CC;
 	padding-right: .5em;
 	border-radius:100px;
 	box-shadow: inset 8px 8px 8px #d1d1d1,
-	inset -8px -8px -8px red;
+	inset -8px -8px -8px blue;
 }
 #eval {
 	background: skyblue;
@@ -87,3 +90,4 @@ box-shadow: inset 5px 5px 8px purple,
   ac= AllClear
   ce= ClearEntry
   :hover= bayangan;
+  
