@@ -3,7 +3,7 @@ body {
 	margin: 10;
 	display: flex;
 	justify-content: center;
-	align-item: right;
+	align-items: right;
 	min-height: 80vh;
 	user-select: none;
 	background-image:url(Goku.jpg);
