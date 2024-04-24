@@ -1,9 +1,11 @@
 
 var screen = document.querySelector('#screen');
  var btn = document.querySelectorAll('.btn');
+ 
  for (item of btn) {
  item.addEventListener('click', (e) => {
-	btntext = e.target.innerText;
+	btntext = e.target.innerText;	
+	
 	if (btntext == 'x') {
 	btntext = '*';
 	}
@@ -23,10 +25,10 @@ var screen = document.querySelector('#screen');
 	 screen.value = Math.tan(screen.value);
  }
  function pow() {
-	 screen.value = Math.pow(screen.value, 2);
+	 screen.value = Math.pow(screen.value, 2);/*pangkat*/
  }
  function sqrt() {
-	 screen.value = Math.sqrt(screen.value, 2);
+	 screen.value = Math.sqrt(screen.value, 2);/*alkar*/
  }
 function log() {
 	 screen.value = Math.log(screen.value);
