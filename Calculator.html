@@ -7,12 +7,11 @@
 </head>
 <body>
 <div class="container">
-<h1><font color="orange"><center>KALKULATOR HAKIA</center></h1>
+	<h1><center>kalkulator</center></h1>
 <div class="display">
-
- <input name="text" type="text" id="screen" placeholder="0">
- <h1><font color="orange"><center>hamdan</center></h1>
+ <input type="text" class="display" id="screen" placeholder="0" >
 </div>
+
 <div class="btns">
 <div class="row">
 <button id="ce" onClick="backspc()">⌫</button>
@@ -25,7 +24,6 @@
 <div class="row">
 <button id="btn2" onClick="sin()">sin</button>
 <button id="btn2" onClick="pi()">π</button>
-
 <button class="btn">7</button> 
 <button class="btn">8</button>
 <button class="btn">9</button>
@@ -34,7 +32,6 @@
 <div class="row">
 <button id="btn2" onClick="cos()">cos</button>
 <button id="btn2" onClick="log()">log</button>
-
 <button class="btn">4</button>
 <button class="btn">5</button>
 <button class="btn">6</button>
@@ -43,7 +40,6 @@
 <div class="row">
 <button id="btn2" onClick="tan()">tan</button>
 <button id="btn2" onClick="sqrt()">√</button>
-
 <button class="btn">1</button>
 <button class="btn">2</button>
 <button class="btn">3</button>
@@ -55,14 +51,12 @@
 </button>
 <button class="btn">0</button>
 <button class="btn">.</button>
-
-<button id="eval" onClick="screen.value=eval(screen.value.replaceAll('%', ' * 0.01'))">=</button>
+<button id="eval"  onClick="screen.value=eval(
+screen.value.replaceAll('%','*0.01'))">=</button>
 <button class="btn">+</button>
-
 </div>
 </div>
 </div>
-
 <script type="text/javascript" src="calcu.js"></script>
 </body>
   </html>
